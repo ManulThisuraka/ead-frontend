@@ -1,8 +1,6 @@
-import {Fragment, useEffect, useState} from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, {Fragment, useState} from 'react';
+import {Disclosure, Menu, Transition} from '@headlessui/react';
+import {Bars3Icon, BellIcon, XMarkIcon} from '@heroicons/react/24/outline';
 import useApiResult from '../shared/apiService';
 import {getTodos} from '../shared/apiUrls';
 
